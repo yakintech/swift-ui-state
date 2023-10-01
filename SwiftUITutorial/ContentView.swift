@@ -16,15 +16,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
         
-            ForEach(cities, id:\.self){item in
-                Text(item)
-                    .padding()
-            }
-            Text(name)
-                .padding()
-            
-            Text(String(price))
-                .padding()
+           ProductDetail(name: "IPhone", description: "Apple product", price: "5500")
         
         }
         .padding()

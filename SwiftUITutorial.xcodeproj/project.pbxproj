@@ -25,6 +25,16 @@
 		1D33C6102AC821DC0036D58B /* KDVCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C60F2AC821DC0036D58B /* KDVCalc.swift */; };
 		1D33C6122AC823C60036D58B /* InputArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C6112AC823C60036D58B /* InputArray.swift */; };
 		1D33C6142AC827F50036D58B /* SortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C6132AC827F50036D58B /* SortArray.swift */; };
+		1D33C6162AC82BD20036D58B /* ToogleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C6152AC82BD20036D58B /* ToogleState.swift */; };
+		1D33C61A2AC952190036D58B /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C6192AC952190036D58B /* TemperatureConverter.swift */; };
+		1D33C61C2AC955DB0036D58B /* MusicFavoritesSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C61B2AC955DB0036D58B /* MusicFavoritesSample.swift */; };
+		1D33C61E2AC959670036D58B /* ProductListTrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C61D2AC959670036D58B /* ProductListTrash.swift */; };
+		1D33C6202AC963B90036D58B /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C61F2AC963B90036D58B /* ToDoList.swift */; };
+		1D33C6222AC9679F0036D58B /* KDVCalc2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C6212AC9679F0036D58B /* KDVCalc2.swift */; };
+		1D33C6242AC968B60036D58B /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C6232AC968B60036D58B /* ProductDetail.swift */; };
+		1D33C6262AC96AA90036D58B /* ColorPickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C6252AC96AA90036D58B /* ColorPickerSample.swift */; };
+		1D33C6292AC977570036D58B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C6282AC977570036D58B /* User.swift */; };
+		1D33C62B2AC977A90036D58B /* UserCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C62A2AC977A90036D58B /* UserCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +76,16 @@
 		1D33C60F2AC821DC0036D58B /* KDVCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDVCalc.swift; sourceTree = "<group>"; };
 		1D33C6112AC823C60036D58B /* InputArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputArray.swift; sourceTree = "<group>"; };
 		1D33C6132AC827F50036D58B /* SortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortArray.swift; sourceTree = "<group>"; };
+		1D33C6152AC82BD20036D58B /* ToogleState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToogleState.swift; sourceTree = "<group>"; };
+		1D33C6192AC952190036D58B /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
+		1D33C61B2AC955DB0036D58B /* MusicFavoritesSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicFavoritesSample.swift; sourceTree = "<group>"; };
+		1D33C61D2AC959670036D58B /* ProductListTrash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTrash.swift; sourceTree = "<group>"; };
+		1D33C61F2AC963B90036D58B /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
+		1D33C6212AC9679F0036D58B /* KDVCalc2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDVCalc2.swift; sourceTree = "<group>"; };
+		1D33C6232AC968B60036D58B /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		1D33C6252AC96AA90036D58B /* ColorPickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerSample.swift; sourceTree = "<group>"; };
+		1D33C6282AC977570036D58B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1D33C62A2AC977A90036D58B /* UserCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,21 +136,15 @@
 		1D33C5D42AC803570036D58B /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1D33C6272AC9773D0036D58B /* StructSample */,
+				1D33C6182AC951F70036D58B /* StateSamplePart2 */,
+				1D33C6172AC951D60036D58B /* StateSamplePart1 */,
 				1D33C5D52AC803570036D58B /* SwiftUITutorialApp.swift */,
 				1D33C5D72AC803570036D58B /* ContentView.swift */,
 				1D33C5D92AC803580036D58B /* Assets.xcassets */,
 				1D33C5DB2AC803580036D58B /* Preview Content */,
 				1D33C5FF2AC806C60036D58B /* OneWayBind.swift */,
-				1D33C6012AC806FA0036D58B /* StateIntro.swift */,
-				1D33C6032AC808C20036D58B /* StateCounterSample.swift */,
-				1D33C6052AC809A00036D58B /* StateArraySample.swift */,
-				1D33C6072AC80AE40036D58B /* StateBooleanSample.swift */,
-				1D33C6092AC811A50036D58B /* StateArraySample2.swift */,
-				1D33C60B2AC818520036D58B /* StateFrameSample.swift */,
-				1D33C60D2AC81F310036D58B /* StateInputSample.swift */,
-				1D33C60F2AC821DC0036D58B /* KDVCalc.swift */,
-				1D33C6112AC823C60036D58B /* InputArray.swift */,
-				1D33C6132AC827F50036D58B /* SortArray.swift */,
+				1D33C6232AC968B60036D58B /* ProductDetail.swift */,
 			);
 			path = SwiftUITutorial;
 			sourceTree = "<group>";
@@ -158,6 +172,46 @@
 				1D33C5F22AC803580036D58B /* SwiftUITutorialUITestsLaunchTests.swift */,
 			);
 			path = SwiftUITutorialUITests;
+			sourceTree = "<group>";
+		};
+		1D33C6172AC951D60036D58B /* StateSamplePart1 */ = {
+			isa = PBXGroup;
+			children = (
+				1D33C6012AC806FA0036D58B /* StateIntro.swift */,
+				1D33C6032AC808C20036D58B /* StateCounterSample.swift */,
+				1D33C6052AC809A00036D58B /* StateArraySample.swift */,
+				1D33C6072AC80AE40036D58B /* StateBooleanSample.swift */,
+				1D33C6092AC811A50036D58B /* StateArraySample2.swift */,
+				1D33C60B2AC818520036D58B /* StateFrameSample.swift */,
+				1D33C60D2AC81F310036D58B /* StateInputSample.swift */,
+				1D33C60F2AC821DC0036D58B /* KDVCalc.swift */,
+				1D33C6112AC823C60036D58B /* InputArray.swift */,
+				1D33C6132AC827F50036D58B /* SortArray.swift */,
+				1D33C6152AC82BD20036D58B /* ToogleState.swift */,
+			);
+			path = StateSamplePart1;
+			sourceTree = "<group>";
+		};
+		1D33C6182AC951F70036D58B /* StateSamplePart2 */ = {
+			isa = PBXGroup;
+			children = (
+				1D33C6192AC952190036D58B /* TemperatureConverter.swift */,
+				1D33C61B2AC955DB0036D58B /* MusicFavoritesSample.swift */,
+				1D33C61D2AC959670036D58B /* ProductListTrash.swift */,
+				1D33C61F2AC963B90036D58B /* ToDoList.swift */,
+				1D33C6212AC9679F0036D58B /* KDVCalc2.swift */,
+				1D33C6252AC96AA90036D58B /* ColorPickerSample.swift */,
+			);
+			path = StateSamplePart2;
+			sourceTree = "<group>";
+		};
+		1D33C6272AC9773D0036D58B /* StructSample */ = {
+			isa = PBXGroup;
+			children = (
+				1D33C6282AC977570036D58B /* User.swift */,
+				1D33C62A2AC977A90036D58B /* UserCard.swift */,
+			);
+			path = StructSample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,17 +344,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D33C61A2AC952190036D58B /* TemperatureConverter.swift in Sources */,
+				1D33C6202AC963B90036D58B /* ToDoList.swift in Sources */,
 				1D33C6022AC806FA0036D58B /* StateIntro.swift in Sources */,
 				1D33C60C2AC818520036D58B /* StateFrameSample.swift in Sources */,
 				1D33C6102AC821DC0036D58B /* KDVCalc.swift in Sources */,
 				1D33C6002AC806C60036D58B /* OneWayBind.swift in Sources */,
+				1D33C6242AC968B60036D58B /* ProductDetail.swift in Sources */,
 				1D33C6082AC80AE40036D58B /* StateBooleanSample.swift in Sources */,
+				1D33C6162AC82BD20036D58B /* ToogleState.swift in Sources */,
 				1D33C60E2AC81F310036D58B /* StateInputSample.swift in Sources */,
+				1D33C6292AC977570036D58B /* User.swift in Sources */,
+				1D33C62B2AC977A90036D58B /* UserCard.swift in Sources */,
+				1D33C61E2AC959670036D58B /* ProductListTrash.swift in Sources */,
 				1D33C5D82AC803570036D58B /* ContentView.swift in Sources */,
 				1D33C6062AC809A00036D58B /* StateArraySample.swift in Sources */,
+				1D33C6262AC96AA90036D58B /* ColorPickerSample.swift in Sources */,
 				1D33C5D62AC803570036D58B /* SwiftUITutorialApp.swift in Sources */,
+				1D33C61C2AC955DB0036D58B /* MusicFavoritesSample.swift in Sources */,
 				1D33C60A2AC811A60036D58B /* StateArraySample2.swift in Sources */,
 				1D33C6122AC823C60036D58B /* InputArray.swift in Sources */,
+				1D33C6222AC9679F0036D58B /* KDVCalc2.swift in Sources */,
 				1D33C6042AC808C20036D58B /* StateCounterSample.swift in Sources */,
 				1D33C6142AC827F50036D58B /* SortArray.swift in Sources */,
 			);
