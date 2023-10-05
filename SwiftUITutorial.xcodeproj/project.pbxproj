@@ -35,6 +35,10 @@
 		1D33C6262AC96AA90036D58B /* ColorPickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C6252AC96AA90036D58B /* ColorPickerSample.swift */; };
 		1D33C6292AC977570036D58B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C6282AC977570036D58B /* User.swift */; };
 		1D33C62B2AC977A90036D58B /* UserCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C62A2AC977A90036D58B /* UserCard.swift */; };
+		1D6D74152ACF28B500E88A2C /* CalcSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D74142ACF28B500E88A2C /* CalcSample.swift */; };
+		1D6D74172ACF2CF600E88A2C /* DateFormatterSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D74162ACF2CF600E88A2C /* DateFormatterSample.swift */; };
+		1D6D74192ACF2E3400E88A2C /* MustafaSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D74182ACF2E3400E88A2C /* MustafaSample.swift */; };
+		1D6D741B2ACF30AF00E88A2C /* BasicState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D741A2ACF30AF00E88A2C /* BasicState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +90,10 @@
 		1D33C6252AC96AA90036D58B /* ColorPickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerSample.swift; sourceTree = "<group>"; };
 		1D33C6282AC977570036D58B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1D33C62A2AC977A90036D58B /* UserCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCard.swift; sourceTree = "<group>"; };
+		1D6D74142ACF28B500E88A2C /* CalcSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcSample.swift; sourceTree = "<group>"; };
+		1D6D74162ACF2CF600E88A2C /* DateFormatterSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterSample.swift; sourceTree = "<group>"; };
+		1D6D74182ACF2E3400E88A2C /* MustafaSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MustafaSample.swift; sourceTree = "<group>"; };
+		1D6D741A2ACF30AF00E88A2C /* BasicState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +144,7 @@
 		1D33C5D42AC803570036D58B /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1D6D74132ACF270700E88A2C /* StateSamplePart3 */,
 				1D33C6272AC9773D0036D58B /* StructSample */,
 				1D33C6182AC951F70036D58B /* StateSamplePart2 */,
 				1D33C6172AC951D60036D58B /* StateSamplePart1 */,
@@ -212,6 +221,17 @@
 				1D33C62A2AC977A90036D58B /* UserCard.swift */,
 			);
 			path = StructSample;
+			sourceTree = "<group>";
+		};
+		1D6D74132ACF270700E88A2C /* StateSamplePart3 */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D74142ACF28B500E88A2C /* CalcSample.swift */,
+				1D6D74162ACF2CF600E88A2C /* DateFormatterSample.swift */,
+				1D6D74182ACF2E3400E88A2C /* MustafaSample.swift */,
+				1D6D741A2ACF30AF00E88A2C /* BasicState.swift */,
+			);
+			path = StateSamplePart3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +367,7 @@
 				1D33C61A2AC952190036D58B /* TemperatureConverter.swift in Sources */,
 				1D33C6202AC963B90036D58B /* ToDoList.swift in Sources */,
 				1D33C6022AC806FA0036D58B /* StateIntro.swift in Sources */,
+				1D6D74192ACF2E3400E88A2C /* MustafaSample.swift in Sources */,
 				1D33C60C2AC818520036D58B /* StateFrameSample.swift in Sources */,
 				1D33C6102AC821DC0036D58B /* KDVCalc.swift in Sources */,
 				1D33C6002AC806C60036D58B /* OneWayBind.swift in Sources */,
@@ -356,15 +377,18 @@
 				1D33C60E2AC81F310036D58B /* StateInputSample.swift in Sources */,
 				1D33C6292AC977570036D58B /* User.swift in Sources */,
 				1D33C62B2AC977A90036D58B /* UserCard.swift in Sources */,
+				1D6D741B2ACF30AF00E88A2C /* BasicState.swift in Sources */,
 				1D33C61E2AC959670036D58B /* ProductListTrash.swift in Sources */,
 				1D33C5D82AC803570036D58B /* ContentView.swift in Sources */,
 				1D33C6062AC809A00036D58B /* StateArraySample.swift in Sources */,
 				1D33C6262AC96AA90036D58B /* ColorPickerSample.swift in Sources */,
+				1D6D74152ACF28B500E88A2C /* CalcSample.swift in Sources */,
 				1D33C5D62AC803570036D58B /* SwiftUITutorialApp.swift in Sources */,
 				1D33C61C2AC955DB0036D58B /* MusicFavoritesSample.swift in Sources */,
 				1D33C60A2AC811A60036D58B /* StateArraySample2.swift in Sources */,
 				1D33C6122AC823C60036D58B /* InputArray.swift in Sources */,
 				1D33C6222AC9679F0036D58B /* KDVCalc2.swift in Sources */,
+				1D6D74172ACF2CF600E88A2C /* DateFormatterSample.swift in Sources */,
 				1D33C6042AC808C20036D58B /* StateCounterSample.swift in Sources */,
 				1D33C6142AC827F50036D58B /* SortArray.swift in Sources */,
 			);

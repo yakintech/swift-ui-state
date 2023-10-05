@@ -17,6 +17,10 @@ struct ContentView: View {
         VStack {
         
            ProductDetail(name: "IPhone", description: "Apple product", price: "5500")
+            
+            Divider()
+            
+            BasicState()
         
         }
         .padding()
