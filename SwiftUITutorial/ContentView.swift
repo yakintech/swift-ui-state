@@ -16,11 +16,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
         
-           ProductDetail(name: "IPhone", description: "Apple product", price: "5500")
-            
-            Divider()
-            
-            BasicState()
+           StructArray2()
         
         }
         .padding()

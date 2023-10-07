@@ -11,6 +11,14 @@ struct BasicState: View {
     
     @State private var number = 0
     
+    
+    
+
+
+
+
+    
+    
     var body: some View {
         
         VStack{
@@ -21,6 +29,10 @@ struct BasicState: View {
             Button("Increase"){
                 number = number + 1
             }
+        }
+        .onAppear(){
+            
+
         }
     }
 }
