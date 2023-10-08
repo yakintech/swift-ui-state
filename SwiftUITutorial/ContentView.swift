@@ -9,17 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var cities = ["İstanbul", "Ankara", "İzmir"]
-    var name = "Çağatay"
-    var price = 22
+
     
     var body: some View {
-        VStack {
         
-           StructArray2()
-        
+        NavigationView{
+            TabView{
+                
+                Products()
+                    .tabItem{
+                        Label("Products", systemImage: "person")
+                    }
+                
+                Search()
+                    .tabItem{
+                        Label("Search", systemImage: "person")
+                    }
+                
+                Profile()
+                    .tabItem{
+                        Label("Profile", systemImage: "person")
+                    }
+                
+                
+            }
         }
-        .padding()
+       
     }
 }
 

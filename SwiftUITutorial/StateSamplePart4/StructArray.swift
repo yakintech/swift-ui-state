@@ -82,9 +82,8 @@ struct StructArray: View {
             
             
             var client = Client(id:1, name:"Çağatay", surname: "Yıldız", age:18)
-            
             var client2 = Client(id:2, name:"Aykut", surname: "Arslan", age:22)
-            
+        
             var client3 = Client(id:3, name:"Müge", surname: "Çalışkan", age:22)
             
             var client4 = Client(id:4, name:"Ertan", surname: "Yılmaz", age:44)
